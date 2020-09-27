@@ -1,0 +1,107 @@
+@import "../vars.less";
+
+.footer {
+    padding: 1rem 0;
+    background-color: @black;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__credits {
+    display: flex;
+    align-items: center;
+}
+
+.footer__copyright {
+    padding-right: .8rem;
+    margin-right: 1rem;
+    font-size: .94rem;
+    color: #BBBBCC;
+    border-right: 1px solid rgba(@gray, 0.35);
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        margin-right: 1.2rem;
+    }
+}
+
+.footer__social-behance {
+    display: block;
+    background: url(../images/dest/social/behance-network.svg) no-repeat center;
+    width: 29px;
+    height: 29px;
+}
+
+.footer__social-dribbble {
+    display: block;
+    background: url(../images/dest/social/dribbble.svg) no-repeat center;
+    width: 20px;
+    height: 20px; 
+}
+
+.footer__social-in {
+    display: block;
+    background: url(../images/dest/social/linkedin.svg) no-repeat center;
+    width: 18px;
+    height: 18px; 
+}
+
+.footer__social-fb {
+    display: block;
+    background: url(../images/dest/social/facebook.svg) no-repeat center;
+    width: 18px;
+    height: 18px;  
+}
+
+.footer__social-inst {
+    display: block;
+    background: url(../images/dest/social/instagram.svg) no-repeat center;
+    width: 20px;
+    height: 20px;  
+}
+
+.footer__social-twit {
+    display: block;
+    background: url(../images/dest/social/twitter.svg) no-repeat center;
+    width: 22px;
+    height: 22px;  
+}
+
+.footer__nav {
+    display: flex;
+    align-items: center;
+    font-size: .94rem;
+}
+
+.footer__nav-link {
+    margin-left: 1.5rem;
+    color: #BBBBCC;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &--btn {
+        padding: .45rem 1.4rem;
+        border-radius: 20px;
+        border: 1px solid @gray-light;
+        text-transform: uppercase;
+
+        &:hover {
+            text-decoration: none;
+            background-color: #BBBBCC;
+            border-color: #BBBBCC;
+            color: @black;
+        }
+    }
+}
+
